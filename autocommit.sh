@@ -32,6 +32,7 @@ else
   # Uncommitted changes
   echo "### Doing some git magic ###"
   git status
+  #git install lsf
   git checkout -b $branch_name
   git add --all
   git commit -am "$commit_message"
